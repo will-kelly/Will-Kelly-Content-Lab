@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "reports": [
+    {
+      "file": "examples/article.md",
+      "word_count": 80,
+      "findings": [
+        {
+          "tool": "claim-sentinel",
+          "severity": "warning",
+          "rule": "unsupported_high_stakes_claim",
+          "line": 3,
+          "message": "Quantified or absolute claim needs a traceable source or claim-ledger match.",
+          "excerpt": "An agentic platform will revolutionize publishing and guarantee accuracy."
+        },
+        {
+          "tool": "claim-sentinel",
+          "severity": "warning",
+          "rule": "unsupported_high_stakes_claim",
+          "line": 3,
+          "message": "Quantified or absolute claim needs a traceable source or claim-ledger match.",
+          "excerpt": "Productivity improves 40%."
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 3,
+          "message": "\u201cseamless\u201d: describe the integration.",
+          "excerpt": "seamless"
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 3,
+          "message": "\u201crevolutionize\u201d: state the measurable change.",
+          "excerpt": "revolutionize"
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 3,
+          "message": "\u201cunlock\u201d: describe the capability.",
+          "excerpt": "unlock"
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 3,
+          "message": "\u201cagentic\u201d: specify the agent, tools, and boundaries.",
+          "excerpt": "agentic"
+        },
+        {
+          "tool": "evidence-trail",
+          "severity": "warning",
+          "rule": "placeholder_link",
+          "line": 9,
+          "message": "Replace placeholder citation before publishing.",
+          "excerpt": "https://example.com"
+        },
+        {
+          "tool": "evidence-trail",
+          "severity": "warning",
+          "rule": "placeholder_link",
+          "line": 9,
+          "message": "Replace placeholder citation before publishing.",
+          "excerpt": "https://example.com"
+        },
+        {
+          "tool": "reader-first",
+          "severity": "info",
+          "rule": "generic_link",
+          "line": 9,
+          "message": "Use destination-specific link text.",
+          "excerpt": "[here](https://example.com)"
+        },
+        {
+          "tool": "claim-sentinel",
+          "severity": "warning",
+          "rule": "unsupported_high_stakes_claim",
+          "line": 11,
+          "message": "Quantified or absolute claim needs a traceable source or claim-ledger match.",
+          "excerpt": "Today every team needs to leverage a robust knowledge platform."
+        },
+        {
+          "tool": "decay-radar",
+          "severity": "info",
+          "rule": "temporal_claim",
+          "line": 11,
+          "message": "Time-relative wording requires a review date and current verification.",
+          "excerpt": "Today"
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 11,
+          "message": "\u201cleverage\u201d: use.",
+          "excerpt": "leverage"
+        },
+        {
+          "tool": "jargon-tax",
+          "severity": "info",
+          "rule": "vague_language",
+          "line": 11,
+          "message": "\u201crobust\u201d: name the failure mode or capacity.",
+          "excerpt": "robust"
+        }
+      ],
+      "counts": {
+        "warning": 5,
+        "info": 8
+      }
+    }
+  ]
+}

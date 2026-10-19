@@ -1,0 +1,11 @@
+[
+  {
+    "id": "CLM-001",
+    "claim": "A publishing system needs an owner, an approval gate",
+    "status": "pending",
+    "source_url": "",
+    "owner": "Editorial",
+    "reviewed_on": "2026-10-19",
+    "notes": "Replace with a precisely worded and sourced claim if used externally."
+  }
+]
